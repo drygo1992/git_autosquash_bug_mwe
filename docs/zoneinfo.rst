@@ -81,7 +81,7 @@ value::
     2020-11-01 01:00:00-07:00
 
     >>> print((dt_utc + timedelta(hours=1)).astimezone(LOS_ANGELES))
-    2020-11-01 01:00:00-07:00
+    2020-11-01 01:00:00-08:00
 
 Data sources
 ------------

@@ -77,6 +77,7 @@ value::
     >>> LOS_ANGELES = ZoneInfo("America/Los_Angeles")
     >>> dt_utc = datetime(2020, 11, 1, 8, tzinfo=timezone.utc)
 
+    >>> # Before the PDT -> PST transition
     >>> print(dt_utc.astimezone(LOS_ANGELES))
     2020-11-01 01:00:00-07:00
 

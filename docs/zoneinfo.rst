@@ -33,8 +33,8 @@ Using ``ZoneInfo``
 
 :class:`ZoneInfo` is a concrete implementation of the :class:`datetime.tzinfo`
 abstract base class, and is intended to be attached to ``tzinfo``, either via
-the constructor, the :meth:`datetime.replace` method or
-:meth:`datetime.astimezone`::
+the constructor, the :meth:`datetime.replace <datetime.datetime.replace>`
+method or :meth:`datetime.astimezone <datetime.datetime.astimezone`::
 
     >>> from zoneinfo import ZoneInfo
     >>> from datetime import datetime, timedelta
